@@ -1,36 +1,66 @@
-# This is a basic workflow to help you get started with Actions
+# Improved CI Workflow for GitHub Profile README
+# Validates the README and provides useful checks
 
-name: CI
+name: Validate Profile README
 
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+# Explicit permissions for better security and compatibility
+permissions:
+  contents: read
+
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  validate:
+    name: Validate README
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: Check that README.md exists and is not empty
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          echo "Checking README.md..."
+          if [ ! -f README.md ]; then
+            echo "::error::README.md is missing!"
+            exit 1
+          fi
+          if [ ! -s README.md ]; then
+            echo "::error::README.md is empty!"
+            exit 1
+          fi
+          echo "✅ README.md exists and has content."
+          echo "Lines in README.md: $(wc -l < README.md)"
+          echo "Size: $(du -h README.md | cut -f1)"
+
+      - name: Show first few lines of README (for quick inspection)
+        run: |
+          echo "=== First 20 lines of README.md ==="
+          head -n 20 README.md
+          echo "================================="
+
+      - name: Basic Markdown structure check
+        run: |
+          echo "Checking for common Markdown issues..."
+          # Check for unclosed code blocks (simple heuristic)
+          OPEN=$(grep -c '```' README.md || true)
+          if [ $((OPEN % 2)) -ne 0 ]; then
+            echo "::warning::Odd number of code fences found. Possible unclosed code block."
+          else
+            echo "✅ Code fences look balanced."
+          fi
+          # Check that there is at least one heading
+          if ! grep -qE '^#+ ' README.md; then
+            echo "::warning::No Markdown headings found in README.md"
+          else
+            echo "✅ Headings found."
+          fi
+
+      - name: Success message
+        run: |
+          echo "🎉 Profile README validation completed successfully!"
