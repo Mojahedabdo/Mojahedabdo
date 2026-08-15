@@ -6,7 +6,7 @@
 
 ## نبذة قصيرة (بالعربية)
 
-مطور برمجيات شغوف يسعى باستمرار للتعلم وتوسيع مهاراته. لا أقتصر على مجال واحد، بل أستكشف تقنيات وأدوات متنوعة لتقديم حلول عملية ومبتكرة. أؤمن بأهمية التعاون والمساهمة في مشاريع مفتوحة المصدر كوسيلة للنمو المهني والشخصي.
+مطور برمجيات شغوف يسعى باستمرار للتعلم وتوسيع مهاراته. لا أقتصر على مجال واحد، بل أستكشف تقنيات وأدوات متنوعة لتقديم حلول عمل��ة ومبتكرة. أؤمن بأهمية التعاون والمساهمة في مشاريع مفتوحة المصدر كوسيلة للنمو المهني والشخصي.
 
 - 💡 دائمًا أبحث عن فرص جديدة للتعلم والمشاركة في المشاريع التقنية.
 - 🚀 أتطلع لاكتساب خبرات متنوعة والتعاون مع مطورين من خلفيات مختلفة.
@@ -46,14 +46,10 @@ I welcome contributions of all kinds: bug reports (Issues), suggestions, and Pul
 
 ## تواصل — Contact
 
-يمكنك التواصل معي عبر القنوات التالية:
+يمكنك التواصل معي عبر القنوات التالية (الروابط مرتبطة بأيقونات):
 
-- GitHub: [Mojahedabdo](https://github.com/Mojahedabdo)
-- YouTube: [MyAndYou](https://www.youtube.com/@MyAndYou-b4x)
-- Telegram: [@mojahedabdo](https://t.me/mojahedabdo)
-- Mastodon (profile): [@mojaa](https://mastodon.social/@mojaa)
-- Mastodon (post): https://mastodon.social/@mojaa/115453460865055012
+[![GitHub](https://img.shields.io/badge/GitHub-@Mojahedabdo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mojahedabdo) [![YouTube](https://img.shields.io/badge/YouTube-MyAndYou-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@MyAndYou-b4x) [![Telegram](https://img.shields.io/badge/Telegram-@mojahedabdo-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/mojahedabdo) [![Mastodon](https://img.shields.io/badge/Mastodon-@mojaa-6364A3?style=for-the-badge&logo=mastodon&logoColor=white)](https://mastodon.social/@mojaa) [![Mastodon Post](https://img.shields.io/badge/Mastodon-Post-6364A3?style=for-the-badge&logo=mastodon&logoColor=white)](https://mastodon.social/@mojaa/115453460865055012)
 
 ---
 
-> ملاحظة: إن احتجت تعديل أي رابط أو نص هنا، أخبرني وسأعدّله فورًا.
+> ملاحظة: إن رغبت في استبدال أيقونة أو تعديل الرابط، أخبرني وسأجري التغيير فورًا.
