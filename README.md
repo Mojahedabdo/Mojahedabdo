@@ -46,22 +46,14 @@ I welcome contributions of all kinds: bug reports (Issues), suggestions, and Pul
 
 ## تواصل — Contact
 
-يمكنك التواصل معي عبر القنوات التالية (استبدل الروابط بمعلوماتك الفعلية):
+يمكنك التواصل معي عبر القنوات التالية:
 
 - GitHub: [Mojahedabdo](https://github.com/Mojahedabdo)
-- LinkedIn: [LinkedIn Profile](https://linkedin.com/in/your-profile)
-- Twitter/X: [@yourhandle](https://twitter.com/yourhandle)
-- Email: your.email@example.com
+- YouTube: [MyAndYou](https://www.youtube.com/@MyAndYou-b4x)
+- Telegram: [@mojahedabdo](https://t.me/mojahedabdo)
+- Mastodon (profile): [@mojaa](https://mastodon.social/@mojaa)
+- Mastodon (post): https://mastodon.social/@mojaa/115453460865055012
 
 ---
 
-You can reach me through the following channels (please replace placeholders with your real links):
-
-- GitHub: [Mojahedabdo](https://github.com/Mojahedabdo)
-- LinkedIn: [LinkedIn Profile](https://linkedin.com/in/your-profile)
-- Twitter/X: [@yourhandle](https://twitter.com/yourhandle)
-- Email: your.email@example.com
-
----
-
-> ملاحظة: لتعديل الروابط أو النصوص، قم بتحرير ملف README.md مباشرةً في المستودع واستبدال عناصر النائب بروابطك ومعلوماتك الحقيقية.
+> ملاحظة: إن احتجت تعديل أي رابط أو نص هنا، أخبرني وسأعدّله فورًا.
