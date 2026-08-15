@@ -1,61 +1,67 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=16a085,ffd700,e74c3c&height=180&section=header&text=مجاهد%20عبده&fontSize=40&fontColor=fff" alt="header" />
-</p>
+![header](https://capsule-render.vercel.app/api?type=waving&color=16a085,ffd700,e74c3c&height=180&section=header&text=%D9%85%D8%AC%D8%A7%D9%87%D8%AF%20%D8%B9%D8%A8%D8%AF%D9%87&fontSize=40&fontColor=fff)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/تعلم-مستمر-16a085?style=for-the-badge&logo=github" alt="تعلم-مستمر" />
-  <img src="https://img.shields.io/badge/مشاريع-مفتوحة%20المصدر-ffd700?style=for-the-badge&logo=github" alt="مشاريع-مفتوحة-المصدر" />
-  <img src="https://img.shields.io/badge/تعاون-مجتمعي-e74c3c?style=for-the-badge&logo=github" alt="تعاون-مجتمعي" />
-</p>
+![تعلم مستمر](https://img.shields.io/badge/%D8%AA%D8%B9%D9%84%D9%85-%D9%85%D8%B3%D8%AA%D9%85-16a085?style=for-the-badge&logo=github) ![مشاريع مفتوحة المصدر](https://img.shields.io/badge/%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9-%D9%85%D9%81%D8%AA%D9%88%D8%AD%D8%A9%20%D8%A7%D9%84%D9%85%D8%B5%D8%AF%D8%B1-ffd700?style=for-the-badge&logo=github) ![تعاون مجتمعي](https://img.shields.io/badge/%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%85%D8%AC%D8%AA%D9%85%D8%B9%D9%8A-e74c3c?style=for-the-badge&logo=github)
 
 # مجاهد عبده — Mojahed Abdo
 
 ## نبذة قصيرة (بالعربية)
 
-مطور شغوف بالتعلم والتطوير المستمر. لا أركز على مجال واحد فقط، بل أسعى دائمًا لتحسين وتطوير قدراتي في البرمجة والتقنية. أؤمن أن توسيع دائرة المهارات هو الطريق الأمثل للنمو المهني والشخصي.
+مطور برمجيات شغوف يسعى باستمرار للتعلم وتوسيع مهاراته. لا أقتصر على مجال واحد، بل أستكشف تقنيات وأدوات متنوعة لتقديم حلول عملية ومبتكرة. أؤمن بأهمية التعاون والمساهمة في مشاريع مفتوحة المصدر كوسيلة للنمو المهني والشخصي.
 
-- 💡 دائم البحث عن فرص جديدة للتعلم والمشاركة في المشاريع التقنية.
-- 🚀 أسعى لاكتساب خبرات متنوعة والتعاون مع مطورين من مختلف الخلفيات.
-- 🌍 أرحب بأي فرصة للتعلم أو المشاركة في مشاريع جديدة!
+- 💡 دائمًا أبحث عن فرص جديدة للتعلم والمشاركة في المشاريع التقنية.
+- 🚀 أتطلع لاكتساب خبرات متنوعة والتعاون مع مطورين من خلفيات مختلفة.
+- 🌍 مرحبًا بأي فرصة للتعاون أو الانضمام إلى مشاريع جديدة.
 
 ---
 
 ## Short bio (English)
 
-A passionate developer committed to continuous learning and improvement. I don't focus on a single area; instead, I strive to improve and expand my skills across programming and technology. I believe broadening skillsets is the best path for professional and personal growth.
+I am a software developer passionate about continuous learning and skill growth. Rather than focusing on a single niche, I explore different technologies and tools to build practical, well-engineered solutions. I value open collaboration and contributing to open-source projects as a way to grow professionally and personally.
 
-- 💡 Always looking for new learning opportunities and to contribute to technical projects.
-- 🚀 Aiming to gain diverse experience and collaborate with developers from different backgrounds.
-- 🌍 Open to any opportunity to learn or participate in new projects!
+- 💡 Always seeking new learning opportunities and ways to contribute to technical projects.
+- 🚀 Eager to gain diverse experience and collaborate with developers from varied backgrounds.
+- 🌍 Open to collaboration and joining new projects.
 
 ---
 
 ## كيفية المساهمة — Contributing
 
-أرحب بالمساهمات سواء عبر فتح Issues لمناقشة أفكار أو مشاكل، أو عبر إرسال Pull Requests لتعديلات صغيرة أو ميزات جديدة. بعض الإرشادات العامة:
+أرحب بالمساهمات بأشكالها المختلفة: تقارير الأخطاء (Issues)، الاقتراحات، أو طلبات السحب (Pull Requests). قبل البدء بميزة كبيرة، يُفضّل فتح Issue لمناقشة التصميم أولًا. عند إرسال PR:
 
-1. افتح Issue قبل العمل على ميزة كبيرة لنتفق على التصميم.
-2. اتبع تنسيق الكود المتبع في المشروع (إن وُجد) واحرص على تنسيق واضح.
-3. اكتب وصفًا واضحًا للتغييرات في PR، واذكر إذا كانت هناك خطوات لاختبارها.
-4. احترم ترخيص المشروع والقوانين المعمول بها.
+1. ضع وصفًا واضحًا للتغييرات والدافع خلفها.
+2. أرفق خطوات لاختبار التغييرات إن أمكن.
+3. التزم بتنسيق الكود المستخدم في المشروع إن وُجد.
+4. احترم ترخيص المشروع وإرشادات السلوك المجتمعي.
 
 ---
 
-I welcome contributions — open an Issue to discuss ideas or problems, or submit Pull Requests for fixes and features. General guidelines:
+I welcome contributions of all kinds: bug reports (Issues), suggestions, and Pull Requests. For larger features, please open an Issue first to discuss the design. When submitting a PR:
 
-1. Open an Issue before working on a large feature to agree on the design.
-2. Follow the project's code style (if any) and keep formatting consistent.
-3. Provide a clear description of changes in the PR and include testing steps when relevant.
+1. Provide a clear description of the changes and the rationale.
+2. Include testing steps or instructions when applicable.
+3. Follow the project's code style and formatting if available.
 4. Respect the project's license and community guidelines.
 
 ---
 
 ## تواصل — Contact
 
-- GitHub: https://github.com/Mojahedabdo
+يمكنك التواصل معي عبر القنوات التالية (استبدل الروابط بمعلوماتك الفعلية):
+
+- GitHub: [Mojahedabdo](https://github.com/Mojahedabdo)
+- LinkedIn: [LinkedIn Profile](https://linkedin.com/in/your-profile)
+- Twitter/X: [@yourhandle](https://twitter.com/yourhandle)
+- Email: your.email@example.com
 
 ---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=e74c3c,ffd700,16a085&height=120&section=footer" alt="footer" />
-</p>
+You can reach me through the following channels (please replace placeholders with your real links):
+
+- GitHub: [Mojahedabdo](https://github.com/Mojahedabdo)
+- LinkedIn: [LinkedIn Profile](https://linkedin.com/in/your-profile)
+- Twitter/X: [@yourhandle](https://twitter.com/yourhandle)
+- Email: your.email@example.com
+
+---
+
+> ملاحظة: لتعديل الروابط أو النصوص، قم بتحرير ملف README.md مباشرةً في المستودع واستبدال عناصر النائب بروابطك ومعلوماتك الحقيقية.
