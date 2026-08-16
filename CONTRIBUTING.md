@@ -1,30 +1,45 @@
+steps:
+  - name: Checkout repository
+    uses: actions/checkout@v4
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=16a085,ffd700,e74c3c&height=180&section=header&text=مجاهد%20عبده&fontSize=40&fontColor=fff" alt="header" />
-</p>
+  - name: Check that README.md exists and is not empty
+    run: |
+      echo "Checking README.md..."
+      if [ ! -f README.md ]; then
+        echo "::error::README.md is missing!"
+        exit 1
+      fi
+      if [ ! -s README.md ]; then
+        echo "::error::README.md is empty!"
+        exit 1
+      fi
+      echo "✅ README.md exists and has content."
+      echo "Lines in README.md: $(wc -l < README.md)"
+      echo "Size: $(du -h README.md | cut -f1)"
 
-<p align="center">
-  <b><span style="color:#16a085;font-size:22px;">مطور شغوف بالتعلم والتطوير المستمر</span></b><br>
-  <span style="color:#ffd700;">لا أركز على مجال واحد فقط، بل أسعى دائمًا لتحسين وتطوير قدراتي في البرمجة والتقنية.</span><br>
-  <span style="color:#e74c3c;">أؤمن أن توسيع دائرة المهارات هو الطريق الأمثل للنمو المهني والشخصي.</span>
-</p>
+  - name: Show first few lines of README (for quick inspection)
+    run: |
+      echo "=== First 20 lines of README.md ==="
+      head -n 20 README.md
+      echo "================================="
 
-<p align="center">
-  <img src="https://img.shields.io/badge/تعلم-مستمر-16a085?style=for-the-badge&logo=github" />
-  <img src="https://img.shields.io/badge/مشاريع-مفتوحة%20المصدر-ffd700?style=for-the-badge&logo=github" />
-  <img src="https://img.shields.io/badge/تعاون-مجتمعي-e74c3c?style=for-the-badge&logo=github" />
-</p>
+  - name: Basic Markdown structure check
+    run: |
+      echo "Checking for common Markdown issues..."
+      # Check for unclosed code blocks (simple heuristic)
+      OPEN=$(grep -c '```' README.md || true)
+      if [ $((OPEN % 2)) -ne 0 ]; then
+        echo "::warning::Odd number of code fences found. Possible unclosed code block."
+      else
+        echo "✅ Code fences look balanced."
+      fi
+      # Check that there is at least one heading
+      if ! grep -qE '^#+ ' README.md; then
+        echo "::warning::No Markdown headings found in README.md"
+      else
+        echo "✅ Headings found."
+      fi
 
----
-
-## 🙋‍♂️ عني
-
-- 💡 <span style="color:#16a085;">دائم البحث عن فرص جديدة للتعلم والمشاركة في المشاريع التقنية.</span>
-- 🚀 <span style="color:#ffd700;">أسعى لاكتساب خبرات متنوعة والتعاون مع مطورين من مختلف الخلفيات.</span>
-- 🌍 <span style="color:#e74c3c;">أرحب بأي فرصة للتعلم أو المشاركة في مشاريع جديدة!</span>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=e74c3c,ffd700,16a085&height=120&section=footer"/>
-</p> 
+  - name: Success message
+    run: |
+      echo "🎉 Profile README validation completed successfully!"
