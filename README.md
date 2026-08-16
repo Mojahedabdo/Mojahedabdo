@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=16a085,ffd700,e74c3c&height=180&section=header&text=%D9%85%D8%AC%D8%A7%D9%87%D8%AF%20%D8%B9%D8%A8%D8%AF%D9%87&fontSize=40&fontColor=fff)
+l![header](https://capsule-render.vercel.app/api?type=waving&color=16a085,ffd700,e74c3c&height=180&section=header&text=%D9%85%D8%AC%D8%A7%D9%87%D8%AF%20%D8%B9%D8%A8%D8%AF%D9%87&fontSize=40&fontColor=fff)
 
 ![تعلم مستمر](https://img.shields.io/badge/%D8%AA%D8%B9%D9%84%D9%85-%D9%85%D8%B3%D8%AA%D9%85-16a085?style=for-the-badge&logo=github) ![مشاريع مفتوحة المصدر](https://img.shields.io/badge/%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9-%D9%85%D9%81%D8%AA%D9%88%D8%AD%D8%A9%20%D8%A7%D9%84%D9%85%D8%B5%D8%AF%D8%B1-ffd700?style=for-the-badge&logo=github) ![تعاون مجتمعي](https://img.shields.io/badge/%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%85%D8%AC%D8%AA%D9%85%D8%B9%D9%8A-e74c3c?style=for-the-badge&logo=github)
 
@@ -51,5 +51,3 @@ I welcome contributions of all kinds: bug reports (Issues), suggestions, and Pul
 [![GitHub](https://img.shields.io/badge/GitHub-@Mojahedabdo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mojahedabdo) [![YouTube](https://img.shields.io/badge/YouTube-MyAndYou-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@MyAndYou-b4x) [![Telegram](https://img.shields.io/badge/Telegram-@mojahedabdo-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/mojahedabdo) [![Mastodon](https://img.shields.io/badge/Mastodon-@mojaa-6364A3?style=for-the-badge&logo=mastodon&logoColor=white)](https://mastodon.social/@mojaa) [![Mastodon Post](https://img.shields.io/badge/Mastodon-Post-6364A3?style=for-the-badge&logo=mastodon&logoColor=white)](https://mastodon.social/@mojaa/115453460865055012)
 
 ---
-
-> ملاحظة: إن رغبت في استبدال أيقونة أو تعديل الرابط، أخبرني وسأجري التغيير فورًا.
